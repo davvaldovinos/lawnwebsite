@@ -237,16 +237,15 @@ header {
 
 
 .hero-text-box {
-    color: #fff;
     text-align: center;
     margin-top: 300px;
-    text-align: center;
 }
 
 .hero-text-box-text h1{
     margin-bottom: 25px;
     font-size: 260%;
     font-weight: 400;
+    color: #fff;
 }
 
 
@@ -416,12 +415,7 @@ nav {
     margin-bottom: 50px;
 }
 
-
-.works-step:last-child {
-    margin-bottom: 80px;
-}
-
-.works-step div {
+.works-step div{
     color: rgba(4, 59, 4, 0.98);
     border: 2px solid rgba(4, 59, 4, 0.98);
     display: inline-block;

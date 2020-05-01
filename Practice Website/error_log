@@ -1,0 +1,10 @@
+[30-Apr-2020 01:57:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:57:31 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:58:16 UTC] PHP Notice:  Undefined index: success in /home/b0366tme0rg0/public_html/index.php on line 288
+[30-Apr-2020 01:58:16 UTC] PHP Notice:  Undefined index: success in /home/b0366tme0rg0/public_html/index.php on line 293

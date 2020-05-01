@@ -285,7 +285,6 @@
                         
                         <?php
                         
-                        
                         if($_GET['success'] == 1){
                             echo "<div class=\"form-messages success\"> Thank you! Your message has been sent.
                             </div>";
@@ -297,7 +296,7 @@
                             }
                         ?>
                         
-                        
+                       
                     </div>
                     <div class="row">              
                         <div class="col span-1-of-3">
@@ -367,7 +366,7 @@
             
             <div class="row">
                 <p>
-                    Copyright &copy; 2020 by LawnUSA. All rights reserved.
+                    Copyright &copy; 2020 by LawnUSA. All rights reserved. str
                 </p>
             </div>
         </footer>
