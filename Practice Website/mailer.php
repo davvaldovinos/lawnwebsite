@@ -5,6 +5,7 @@
     $name = str_replace(array("\r","\n"),array(" "," "),$name);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $message = trim($_POST["message"]);
+    $telNo = ($_POST["telNo"]);
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -20,8 +21,10 @@
 
     // Build the email content.
     $email_content = "Name: $name\n";
+    $email_content .= "Telephone: $telNo\n";
     $email_content .= "Email: $email\n\n";
-    $email_content .= "Message:\n$message\n";
+    $email_content .= "Message:\n$message";
+    
 
     // Build the email headers.
     $email_headers = "From: $name <$email>";
@@ -31,5 +34,9 @@
     
     // Redirect to the index.html page with success code
     header("Location: http://www.lawnworth.online/index.php?success=1#form");
+
+
+    
+
 
 ?>

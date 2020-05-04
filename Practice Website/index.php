@@ -282,7 +282,7 @@
                 <form method="post" action="mailer.php" class="contact-form">
                     
                     <div class="row"> 
-                        
+                        <!--
                         <?php
                         
                         if($_GET['success'] == 1){
@@ -295,7 +295,7 @@
                             </div>";
                             }
                         ?>
-                        
+                        -->
                        
                     </div>
                     <div class="row">              
@@ -319,7 +319,7 @@
                             <label for="tel">Telephone</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="tel" name="tel" id="tel" placeholder="&#x2055;&#x2055;&#x2055;&#8211;&#x2055;&#x2055;&#x2055;&#8211;&#x2055;&#x2055;&#x2055;&#x2055;" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <input type="tel" name="telNo" id="telNo" placeholder="423-256-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                         </div>
                     </div>
                     <div class="row">
@@ -366,7 +366,7 @@
             
             <div class="row">
                 <p>
-                    Copyright &copy; 2020 by LawnUSA. All rights reserved. str
+                    Copyright &copy; 2020 by LawnUSA. All rights reserved.
                 </p>
             </div>
         </footer>
