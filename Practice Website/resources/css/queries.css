@@ -29,6 +29,10 @@
     .plan-price {font-size: 250%; }
     .contact-form { width: 80%; }
     
+       
+    .works-step p {
+        display: flex;  
+    }
     
 }
 
@@ -95,14 +99,12 @@
         padding: 6px;
         margin-right: 15px;
         font-size: 120%;
-            
     }
     
     .works-step { margin-bottom: 20px; }
     
     .works-step p {
         margin-bottom: 25px; 
-        display: flex; 
         line-height: 145%;
     }
 
@@ -123,8 +125,7 @@
 @media only screen and (max-width: 480px) {
     section {padding: 25px 0 ; }
     .contact-form {width: 100%; }
-    
-    
+      
 }
     
 
