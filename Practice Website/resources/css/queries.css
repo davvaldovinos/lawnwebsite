@@ -28,12 +28,7 @@
     
     .plan-price {font-size: 250%; }
     .contact-form { width: 80%; }
-    
-       
-    .works-step p {
-        display: flex;  
-    }
-    
+             
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -56,7 +51,7 @@
     }
     .hero-text-box h1{
         font-size: 220%;
-        
+        height: 100%;
     }
     
     blockquote {
@@ -68,6 +63,8 @@
     
     .main-nav {
         float: left;
+        margin-top: 30px;
+        margin-left: 25px;
     }
     
     .main-nav li {
@@ -77,8 +74,16 @@
     
     .main-nav li a:link,
     .main-nav li a:visited {
-        border: 0; 
+        display: block;
+        border: 0;
+        font-size: 100%; 
     }
+    
+    .sticky .main-nav { margin-top: 20px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
     
     h1 { font-size: 180%; }
     h2 { font-size: 150%; margin-top: 20px;}
@@ -105,6 +110,7 @@
     
     .works-step p {
         margin-bottom: 25px; 
+        display: flex;
         line-height: 145%;
     }
 

@@ -46,11 +46,13 @@
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            <div class="row hero-text-box">
+            <div class="row">
+            <div class="hero-text-box">
                 <div class="hero-text-box-text">
                 <h1>Lawn mowing and more from <br> reliable pros in Irving, TX.<br>Order online in minutes.</h1></div>
                 <a class="btn btn-plans js--scroll-to-plans" href="#">Plans</a>
                 <a class="btn btn-sign-up js--scroll-to-start" href="#">Show me more</a>
+            </div>
             </div>
         </header>
         

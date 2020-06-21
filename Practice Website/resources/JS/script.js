@@ -13,7 +13,7 @@
                 $('nav').removeClass('sticky');
             }
       },{
-        offset: '60px;'
+        offset: '-20px;'
       });
         
     /* Scroll on buttons */
