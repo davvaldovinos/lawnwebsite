@@ -1,4 +1,4 @@
 # lawnwebsite
-Things that need fixing.
-  1. Mobile Navigation.
+
+Self project after taking HTML & CSS course on Udemy.
 
